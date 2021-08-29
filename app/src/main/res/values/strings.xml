@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Samaan</string>
+    <string name="delete_all_products">Delete All Products</string>
+    <string name="delete_product">Delete Product</string>
+    <string name="add_product_title">Add Product</string>
+    <string name="product_name_title">Product Name</string>
+    <string name="product_price_title">Product Price</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="quantity_plus">+</string>
+    <string name="quantity_minus">-</string>
+    <string name="order_button">Order</string>
+    <string name="delete_button">Delete</string>
+    <string name="image_text_view">Product Image</string>
+    <string name="image_button">Add Image</string>
+    <string name="save_button">Save</string>
+
+</resources>

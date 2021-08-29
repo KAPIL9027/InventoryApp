@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+     android:layout_marginTop="16dp">
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:src="@drawable/ic_launcher_background"
+    android:id="@+id/list_image"
+    android:scaleType="centerCrop"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_name_title"
+            android:id="@+id/item_name"
+            android:layout_marginTop="16dp"
+            android:layout_margin="8dp"
+            style="@style/text_views"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/product_price_title"
+            android:id="@+id/item_price"
+            android:layout_toRightOf="@+id/item_name"
+            style="@style/text_views"
+            android:layout_margin="8dp"/>
+
+        <TextView
+            android:id="@+id/item_quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_alignParentRight = "true"
+            style="@style/text_views"
+            android:text="0" />
+
+    </RelativeLayout>
+</LinearLayout>
